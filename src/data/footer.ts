@@ -22,7 +22,7 @@ export const footerDetails: {
             url: "/privacy"
         }
     ],
-    email: 'address@yoursite.com',
+    email: 'placeholder@email.com',
     telephone: '+1 (123) 456-7890',
     socials: {
         // github: 'https://github.com',
