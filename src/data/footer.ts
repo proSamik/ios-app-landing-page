@@ -14,12 +14,12 @@ export const footerDetails: {
             url: "#features"
         },
         {
-            text: "Pricing",
-            url: "#pricing"
+            text: "Contact",
+            url: "/contact"
         },
         {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Privacy Policy",
+            url: "/privacy"
         }
     ],
     email: 'address@yoursite.com',
