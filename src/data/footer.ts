@@ -20,6 +20,10 @@ export const footerDetails: {
         {
             text: "Privacy Policy",
             url: "/privacy"
+        },
+        {
+            text: "Terms of Service",
+            url: "/terms"
         }
     ],
     email: 'placeholder@email.com',
