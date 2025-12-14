@@ -26,8 +26,7 @@ export const footerDetails: {
     telephone: '+1 (123) 456-7890',
     socials: {
         // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
+        x: 'https://twitter.com/x',
         facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
         linkedin: 'https://www.linkedin.com',
