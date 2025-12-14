@@ -151,7 +151,7 @@ export const menuItems: IMenuItem[] = [
 
 **Privacy Policy**: Edit `/src/app/privacy/page.tsx` to add your specific privacy details.
 
-**Contact Page**: Edit `/src/app/contact/page.tsx` to customize the contact form (note: form submission needs backend integration).
+**Contact Page**: The contact page displays your contact information (email, phone, socials) from `footer.ts`. No form included.
 
 ### Step 5: Replace Images
 
@@ -319,14 +319,6 @@ Icons use [React Icons](https://react-icons.github.io/react-icons/). To change:
    ```typescript
    icon: <FiCheckCircle size={26} />
    ```
-
-### Making the Contact Form Work
-
-The contact form in `/src/app/contact/page.tsx` is frontend-only. To make it functional:
-
-1. **Use a form service**: [FormSpree](https://formspree.io/), [Netlify Forms](https://www.netlify.com/products/forms/), or [Web3Forms](https://web3forms.com/)
-2. **Build an API route**: Create `/src/app/api/contact/route.ts` with Next.js API routes
-3. **Use email service**: Integrate with SendGrid, Mailgun, or Resend
 
 ---
 
