@@ -27,7 +27,7 @@ export const benefits: IBenefit[] = [
     },
     {
         title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        description: "Start building wealth today, no financial degree required. [App Name] makes investing accessible and straightforward.",
         bullets: [
             {
                 title: "Micro-Investing",
@@ -49,7 +49,7 @@ export const benefits: IBenefit[] = [
     },
     {
         title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+        description: "Your financial data deserves the best protection. Rest easy knowing [App Name] employs cutting-edge security measures.",
         bullets: [
             {
                 title: "Military-Grade Encryption",
