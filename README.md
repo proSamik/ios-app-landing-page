@@ -66,19 +66,23 @@ Follow this comprehensive guide to customize this template for your app. All cus
 Replace `[App Name]` with your actual app name:
 
 ```typescript
+const siteUrl = 'https://yourapp.com/'; // Change to your domain
+
 export const siteDetails = {
     siteName: 'YourAppName',        // Change this
-    siteUrl: 'https://yourapp.com', // Change to your domain
+    siteUrl: siteUrl,
     metadata: {
         title: 'YourAppName - Your App Tagline',
         description: 'Your app description here',
     },
     language: 'en-us',
     locale: 'en-US',
-    siteLogo: 'https://yourapp.com/images/logo.png', // Your hosted logo URL (matches siteUrl + /images/logo.png)
+    siteLogo: `${siteUrl}images/logo.png`, // Auto-generated from siteUrl
     googleAnalyticsId: '', // Add your GA4 ID here
 }
 ```
+
+**Note:** The `siteLogo` is automatically constructed from `siteUrl` + `images/logo.png`. Just update `siteUrl` once and the logo URL updates automatically!
 
 ### Step 2: Update Contact Information
 
