@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import { FaGithub } from 'react-icons/fa';
+
 import { ctaDetails } from "@/data/cta"
 
 import AppStoreButton from "./AppStoreButton"
@@ -20,6 +23,17 @@ const CTA: React.FC = () => {
                         <div className="mt-4 flex flex-col sm:flex-row items-center sm:gap-4">
                         <AppStoreButton />
                         <PlayStoreButton />
+                        </div>
+                        <div className="mt-4">
+                            <Link
+                                href="https://github.com/proSamik/lighteweight-starter-kit-ios-app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-2 px-4 py-4 bg-white text-black rounded-full font-semibold hover:opacity-90 transition-opacity"
+                            >
+                                <FaGithub className="w-5 h-5" />
+                                Download Source Code
+                            </Link>
                         </div>
                     </div>
                 </div>
