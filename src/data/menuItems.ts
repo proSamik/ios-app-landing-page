@@ -12,5 +12,9 @@ export const menuItems: IMenuItem[] = [
     {
         text: "Privacy Policy",
         url: "/privacy"
+    },
+    {
+        text: "Terms of Service",
+        url: "/terms"
     }
 ];
