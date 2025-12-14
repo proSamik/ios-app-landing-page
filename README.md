@@ -75,7 +75,7 @@ export const siteDetails = {
     },
     language: 'en-us',
     locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`,
+    siteLogo: 'https://yourapp.com/images/logo.png', // Your hosted logo URL (matches siteUrl + /images/logo.png)
     googleAnalyticsId: '', // Add your GA4 ID here
 }
 ```
