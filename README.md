@@ -386,6 +386,10 @@ This project is open-source and available under the MIT License. Feel free to us
 
 ---
 
+## Need a Starter Repo kit for ios App?
+- Get the repo [here](https://github.com/proSamik/lighteweight-starter-kit-ios-app)
+
+
 ## Credits
 
 - Template by [Nexi Launch](https://nexilaunch.com)
