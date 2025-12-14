@@ -4,7 +4,7 @@ import { FaFingerprint } from 'react-icons/fa';
 
 import { siteDetails } from '@/data/siteDetails';
 import { footerDetails } from '@/data/footer';
-import { getPlatformIconByName } from '@/utils';
+import ContactInfo from '@/components/ContactInfo';
 
 const Footer: React.FC = () => {
     return (
@@ -33,28 +33,11 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                     <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-
-                    {footerDetails.email && <a href={`mailto:${footerDetails.email}`}  className="block text-foreground-accent hover:text-foreground">Email: {footerDetails.email}</a>}
-
-                    {footerDetails.telephone && <a href={`tel:${footerDetails.telephone}`} className="block text-foreground-accent hover:text-foreground">Phone: {footerDetails.telephone}</a>}
-
-                    {footerDetails.socials && (
-                        <div className="mt-5 flex items-center gap-5 flex-wrap">
-                            {Object.keys(footerDetails.socials).map(platformName => {
-                                if (platformName && footerDetails.socials[platformName]) {
-                                    return (
-                                        <Link
-                                            href={footerDetails.socials[platformName]}
-                                            key={platformName}
-                                            aria-label={platformName}
-                                        >
-                                            {getPlatformIconByName(platformName)}
-                                        </Link>
-                                    )
-                                }
-                            })}
-                        </div>
-                    )}
+                    <ContactInfo
+                        email={footerDetails.email}
+                        telephone={footerDetails.telephone}
+                        socials={footerDetails.socials}
+                    />
                 </div>
             </div>
             <div className="mt-8 md:text-center text-foreground-accent px-6">
