@@ -29,15 +29,28 @@ const Hero: React.FC = () => {
                     <AppStoreButton dark />
                     <PlayStoreButton dark />
                 </div>
-                <div className="mt-4">
+                <div className="mt-3">
                     <Link
                         href="https://github.com/proSamik/lighteweight-starter-kit-ios-app"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-4 bg-foreground text-background rounded-full font-semibold hover:opacity-90 transition-opacity"
                     >
-                        <FaGithub className="w-5 h-5" />
-                        Download Source Code
+                        <button
+                            type="button"
+                            className="inline-flex items-center justify-center min-w-[205px] px-6 h-14 rounded-full bg-foreground text-background hover:opacity-90 transition-opacity"
+                        >
+                            <div className="mr-3">
+                                <FaGithub className="w-[30px] h-[30px]" />
+                            </div>
+                            <div>
+                                <div className="text-xs">
+                                    Get Code from
+                                </div>
+                                <div className="-mt-1 font-sans text-xl font-semibold">
+                                    GitHub
+                                </div>
+                            </div>
+                        </button>
                     </Link>
                 </div>
                 <Image
